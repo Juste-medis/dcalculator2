@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mdate</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="action_contact">Contact</string>
+    <string name="anction_durée">Sur Durée</string>
+    <string name="button_onduree_txt">Sur Durée</string>
+    <string name="title_add">Add</string>
+    <string name="title_compare">Compare</string>
+    <string name="cancel">Cancel</string>
+    <string name="close">Close</string>
+    <string name="ok">OK</string>
+    <string name="days">Jours</string>
+    <string name="month">Mois</string>
+    <string name="years">Année</string>
+    <string name = "total_days"> Jour Total </string>
+    <string name = "total_month"> mois total </string>
+    <string name = "total_years"> année total</string>
+    <string name = "total_hour"> heure total</string>
+    <string name = "total_min"> min total</string>
+    <string name = "total_sec"> sec total </string>
+    <string name="action_business_mode">Business Mode</string>
+    <string name="action_help">Help</string>
+    <string name="action_about">About</string>
+    <string name="mi_dure_lab_title">Moitié :</string>
+    <string name="deb_tvw_txt">DATE DEBUT</string>
+    <string name="tvw_fin_text">DATE DE FIN</string>
+    <string name="deb_or_fin">DEBUT/FIN</string>
+    <string name="action_settings"> Paramètres </string>
+    <string name="action_status"> À propos </string>
+    <string name="setting_mode_title"> Mode </string>
+    <string name="setting_language_title"> Langue </string>
+    <string name="apply_content_description"> Appliquer </string>
+    <string name="storage_app_about"> Lore et dolore magna aliqua. </string>
+    <string name="storage_about"> Version: 1.0 </string>
+    <string name="mailing_about">
+        Si vous rencontrez des bugs, n\'hesitez pas a verifier les dernières mises à jours sur play store (menu \'Noter\' ) .
+        Pour toute demande et assistance, veuillez nous envoyer un mail au datecalcul@gmail.com \n
+        <b>ADIDO Juste-Médis</b>
+    </string>
+
+    <string name="term_condition_about">
+        Termes &amp; Conditions
+    </string>
+
+    <string name="privacy_about">
+        Politique de confidentialité
+    </string>
+    <string name="feedBack_description"> Vous avez trouvé un bogue? Vous avez une suggestion? Faites-nous savoir en utilisant le formulaire ci-dessous! Veuillez inclure votre e-mail afin que nous puissions assurer le suivi. </string>
+    <string name="email_edt_hint"> E-mail (facultatif) </string>
+    <string name="feed_desc_hint"> Écrivez vos commentaires </string>
+    <string name="send_feedback"> Envoyer </string>
+    <string name="action_feedback">commentaires </string>
+    <string name="apply_settings">Appliquer les paramètre</string>
+    <string name="feed_message_empty">Why does your message Body is empty ?</string>
+    <string name="welc_img_desc">Bienvenu</string>
+    <string name="action_share">Partager</string>
+    <string name="send_to">Envoyer</string>
+    <string name="sharing_app_text_intent_title">Merci de partager</string>
+    <string name="sharing_app_text">
+        Merci de partager !
+        https://play.google.com/store/apps/details?id=com.calculator.date
+    </string>
+    <string name="action_rating">Noter</string>
+</resources>
+

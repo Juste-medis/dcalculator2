@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="setting_mode_reply_entries">
+        <item>DEFAULT</item>
+        <item>NOIR</item>
+        <item>ROUGE</item>
+        <item>ROSE</item>
+        <item>POURPRE</item>
+        <item>POURPRE PURE</item>
+        <item>BLEU CIEL</item>
+        <item>CYAN</item>
+        <item>VERT</item>
+        <item>TEAL</item>
+        <item>VERT CLAIRE</item>
+        <item>INDIGO</item>
+        <item>JAUNE</item>
+        <item>LIME</item>
+        <item>AMBER</item>
+        <item>ORANGE</item>
+        <item>ORANGE PURE</item>
+        <item>GRIS</item>
+        <item>BRUN</item>
+        <item>BLEU GRIS</item>
+        <item>BLEU</item>
+    </string-array>
+    <string-array name = "setting_language_reply_entries"> <item>Anglais</item> <item>Français</item> </string-array>
+</resources>

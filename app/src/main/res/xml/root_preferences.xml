@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    >
+    <PreferenceCategory
+        app:key="screen_category"
+        app:title="Screen"
+        >
+        <ListPreference
+            app:title="@string/setting_mode_title"
+            app:key="mode_preference"
+            app:defaultValue="default"
+            app:entries="@array/setting_mode_reply_entries"
+            app:entryValues="@array/setting_mode_reply_values"
+            app:dialogTitle="Choose theme"
+            app:useSimpleSummaryProvider="true"
+            />
+        <ListPreference
+            app:title="@string/setting_language_title"
+            app:key="language_preference"
+            app:entries="@array/setting_language_reply_entries"
+            app:entryValues="@array/setting_language_reply_values"
+            app:dialogTitle="Choose a language"
+            app:useSimpleSummaryProvider="true"
+            />
+    </PreferenceCategory>
+
+    </PreferenceScreen>

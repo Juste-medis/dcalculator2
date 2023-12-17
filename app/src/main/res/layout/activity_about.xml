@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="10dp"
+    android:paddingTop="10dp"
+    android:paddingRight="10dp"
+    android:paddingBottom="10dp"
+    tools:context=".AboutActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/app_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/app_name"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="@color/colorPrimary" />
+
+            <TextView
+                android:id="@+id/storage_about"
+                style="@style/about_textViewStyle"
+                android:text="@string/storage_about" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorPrimary" />
+
+            <TextView
+                android:id="@+id/privacy_policy"
+                style="@style/about_textViewStyle"
+                android:autoLink="all"
+                android:text="@string/privacy_about"
+                android:textColorLink="@color/colorPrimary" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorPrimary" />
+
+            <TextView
+                android:id="@+id/term_conditions"
+                style="@style/about_textViewStyle"
+                android:autoLink="all"
+                android:text="@string/term_condition_about"
+                android:textColorLink="@color/colorPrimary" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorPrimary" />
+
+            <TextView
+                android:id="@+id/mail"
+                style="@style/about_textViewStyle"
+                android:autoLink="all"
+                android:text="@string/mailing_about"
+                android:textStyle="italic"
+                android:textColorLink="@color/colorPrimary" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>
+

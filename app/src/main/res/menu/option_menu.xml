@@ -1,0 +1,39 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="3"
+        android:title="@string/action_settings"
+        android:icon="@drawable/ic_sharp_settings_24"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_share_app"
+        android:orderInCategory="5"
+        android:title="@string/action_share"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_rating"
+        android:orderInCategory="6"
+        android:title="@string/action_rating"
+        />
+
+    <item
+        android:id="@+id/action_about"
+        android:orderInCategory="7"
+        android:title="@string/action_status"
+        app:showAsAction="never" />
+
+
+    <item
+        android:id="@+id/action_feedback"
+        android:orderInCategory="8"
+        android:title="@string/action_feedback"
+        app:showAsAction="never"
+        />
+
+
+</menu>
